@@ -51,6 +51,6 @@ tax_amount <- subtotal * tax_rate
 total_cost_before_tax <- subtotal 
 total_cost <- total_cost_before_tax + tax_amount 
 
-cat("\nSubtotal: $%.2f \n", subtotal) 
-cat("Tax Amount (8%%): $%.2f \n", tax_amount) 
-cat("Total Cost: $%.2f \n", total_cost)
+cat("\nSubtotal: ", subtotal) 
+cat("\nTax Amount  ", tax_amount) 
+cat("\nTotal Cost: ", total_cost)
