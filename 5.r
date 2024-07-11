@@ -22,5 +22,5 @@ analyze_students <- function(data, attend_threshold = 85) {
   return(data)
 }
 
-
+result <- analyze_students(students)
 print(result)
