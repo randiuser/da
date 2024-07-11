@@ -32,8 +32,7 @@ ggplot(purchase_data, aes(x = `Purchase Amount`)) +
   geom_histogram(binwidth = 50, fill = "blue", color = "black", alpha = 0.7) +
   labs(title = "Distribution of Purchase Amounts",
        x = "Purchase Amount ($)",
-       y = "Frequency") +
-  theme_minimal()
+       y = "Frequency") 
 
 # Display the plot
 ggsave("purchase_distribution.png", width = 10, height = 6)
