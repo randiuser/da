@@ -1,6 +1,4 @@
-# Simplified Student Performance Analysis
 
-# Sample student data
 students <- data.frame(
   Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
   Math = c(85, 92, 78, 95, 88),
@@ -24,6 +22,5 @@ analyze_students <- function(data, attend_threshold = 85) {
   return(data)
 }
 
-# Run analysis
-result <- analyze_students(students)
+
 print(result)
